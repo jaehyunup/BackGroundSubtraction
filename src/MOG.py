@@ -4,7 +4,7 @@ import cv2 as cv2
 # Author : 박재현
 
 
-cap = cv2.VideoCapture('vtest.avi')
+cap = cv2.VideoCapture('videos\\vtest.avi')
 # 원본 비디오 객체
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
 # 배경 객체 생성

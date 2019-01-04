@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-cap = cv2.VideoCapture('vtest.avi')
+cap = cv2.VideoCapture('videos\\vtest.avi')
 ret, frame = cap.read()  # binary Video 객체
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))  #StructuringElement = 원본 media에 적용되는 kernel
 gmgfgbg = cv2.bgsegm.createBackgroundSubtractorGMG() # gmg 전경객체
