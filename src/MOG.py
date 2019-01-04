@@ -1,5 +1,8 @@
 import numpy as np
 import cv2 as cv2
+# MOG 를 이용한 배경제거 시도
+# Author : 박재현
+
 
 cap = cv2.VideoCapture('vtest.avi')
 # 원본 비디오 객체

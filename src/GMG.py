@@ -1,4 +1,6 @@
 import numpy as np
+# GMG 를 이용한 배경제거 시도
+# Author : 박재현
 import cv2 as cv2
 cap = cv2.VideoCapture('vtest.avi')
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(1,1))

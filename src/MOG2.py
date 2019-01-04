@@ -1,5 +1,8 @@
 import numpy as np
 import cv2 as cv2
+# MOG2 를 이용한 배경제거 시도
+# Author : 박재현
+
 cap = cv2.VideoCapture('vtest.avi')
 fgbg = cv2.createBackgroundSubtractorMOG2()
 # 배경 객체 생성
