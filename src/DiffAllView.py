@@ -1,7 +1,9 @@
 # Frame Difference 를 이용한 배경제거 시도 ( HSV 변환 )
 # Author : 박재현
 import cv2
-cap = cv2.VideoCapture("videos\\car2.mp4")
+font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
+
+cap = cv2.VideoCapture("videos\\car3.mp4")
 ret, current_frame = cap.read()
 previous_frame = current_frame
 while(ret ==1):
@@ -18,7 +20,6 @@ while(ret ==1):
     current_frame_luv = cv2.cvtColor(current_frame, cv2.COLOR_BGR2LUV)
     previous_frame_luv = cv2.cvtColor(previous_frame, cv2.COLOR_BGR2LUV)
     # (RGB to LUV)
-
     frame_diff_gray = cv2.absdiff(current_frame_gray, previous_frame_gray)
     frame_diff_lab = cv2.absdiff(current_frame_lab, previous_frame_lab)
     frame_diff_hls = cv2.absdiff(current_frame_hls, previous_frame_hls)
@@ -26,17 +27,24 @@ while(ret ==1):
     # 현재 프레임과 이전 프레임간의 차영상 확인
 
     current_frame_re = cv2.resize(current_frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
-    frame_diff_gray_re=cv2.resize(frame_diff_gray, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
+    frame_diff_gray_re = cv2.resize(frame_diff_gray, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     frame_diff_lab_re = cv2.resize(frame_diff_lab, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     frame_diff_hls_re = cv2.resize(frame_diff_hls, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     frame_diff_luv_re = cv2.resize(frame_diff_luv, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     #이미지 리사이징
-
+    cv2.putText(current_frame_re, 'ORIGINAL', (220,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    cv2.putText(frame_diff_gray_re, 'GRAY', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    cv2.putText(frame_diff_lab_re, 'LAB', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    cv2.putText(frame_diff_hls_re, 'HLS', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    cv2.putText(frame_diff_luv_re, 'LUV', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    # 텍스트 출력
     cv2.imshow('ORIGINAL', current_frame_re)
     cv2.imshow('GRAY', frame_diff_gray_re)
     cv2.imshow('LAB', frame_diff_lab_re)
     cv2.imshow('HLS', frame_diff_hls_re)
     cv2.imshow('LUV', frame_diff_luv_re)
+
+
     #출력
     cv2.moveWindow('ORIGINAL', 100, 100)
     cv2.moveWindow('GRAY', 490, 100)
