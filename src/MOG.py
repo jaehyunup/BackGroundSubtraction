@@ -6,7 +6,7 @@ font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
 cap = cv2.VideoCapture('videos\\car3.mp4')
 # 원본 비디오 객체
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
-# 배경 객체 생성
+# 배경 감산기 객체를 통한 전경마스크
 while(1):
     ret, frame = cap.read()
     if ret == 1:
