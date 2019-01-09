@@ -3,7 +3,7 @@ import numpy as np
 # Author : 박재현
 import cv2
 font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
-cap = cv2.VideoCapture('videos\\car3.mp4')
+cap = cv2.VideoCapture('videos\\newvtest.avi')
 # 원본 비디오 객체
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
 # 배경 감산기 객체를 통한 전경마스크

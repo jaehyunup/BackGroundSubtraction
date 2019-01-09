@@ -22,7 +22,6 @@ while(1):
         # 원본 영상 출력
         cv2.moveWindow('ORIGINAL',100,100)
         cv2.moveWindow('MOG2', 490, 100)
-
         k = cv2.waitKey(20) & 0xff
         if k == ord('q'):
             break

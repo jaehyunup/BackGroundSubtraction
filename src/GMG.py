@@ -3,13 +3,13 @@ import numpy as np
 # Author : 박재현
 import cv2
 font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
-cap = cv2.VideoCapture('videos\\car3.mp4')
+cap = cv2.VideoCapture('videos\\newvtest.avi')
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(1,1))
 fgbg = cv2.bgsegm.createBackgroundSubtractorGMG()
 while(1):
     ret, frame = cap.read()
     if ret == 1:
-        frame = cv2.resize(frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
+        #frame = cv2.resize(frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
         fgmask = fgbg.apply(frame)
         fgmask = cv2.morphologyEx(fgmask, cv2.MORPH_OPEN, kernel)
         cv2.putText(frame, 'Original', (210, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)

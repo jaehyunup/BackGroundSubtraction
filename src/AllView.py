@@ -1,12 +1,15 @@
 import numpy as np
 import cv2
 font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
-cap = cv2.VideoCapture('videos\\car3.mp4')
+cap = cv2.VideoCapture('videos\\car2.mp4')
 ret, frame = cap.read()  # binary Video 객체
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (1, 1))  #StructuringElement = 원본 media에 적용되는 kernel
 gmgfgbg = cv2.bgsegm.createBackgroundSubtractorGMG() # gmg 전경객체
 mogfgbg = cv2.bgsegm.createBackgroundSubtractorMOG() # mog 전경객체
 mog2fgbg = cv2.createBackgroundSubtractorMOG2() # mog2 전경객체
+gsoc = cv2.bgsegm.createBackgroundSubtractorGSOC() #gsoc연산
+lsbp = cv2.bgsegm.createBackgroundSubtractorLSBP() #LSBP 연산
+cnt = cv2.bgsegm.createBackgroundSubtractorCNT() # cnt 연산
 while( ret ==1 ):
     #ret, frame = cap.read()  # binary Video 객체
     frame_re = cv2.resize(frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
@@ -14,6 +17,11 @@ while( ret ==1 ):
     fgmask2 = mog2fgbg.apply(frame_re) # mog2 전경 마스크 연산
     fgmask3 = gmgfgbg.apply(frame_re) # gmg 전경 마스크 연산
     fgmask3 = cv2.morphologyEx(fgmask3, cv2.MORPH_OPEN, kernel) # gmg 모폴로지 연산
+    fgmask4 = gsoc.apply(frame_re)
+    fgmask5 = lsbp.apply(frame_re)
+    fgmask6 = cnt.apply(frame_re)
+
+
     cv2.putText(frame_re, 'Original', (230, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
     cv2.imshow('ORIGINAL', frame_re)
     cv2.putText(fgmask, 'MOG', (290, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
@@ -22,10 +30,21 @@ while( ret ==1 ):
     cv2.imshow('MOG2', fgmask2) # mog2 프레임
     cv2.putText(fgmask3, 'GMG', (290, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
     cv2.imshow('GMG', fgmask3)  # gmg 프레임
+    cv2.putText(fgmask4, 'GSOC', (270, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+    cv2.imshow('GSOC', fgmask4)  # GSOC
+    cv2.putText(fgmask5, 'LSBP', (270, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+    cv2.imshow('LSBP', fgmask5)  # LSBP
+    cv2.putText(fgmask6, 'CNT', (270, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+    cv2.imshow('CNT', fgmask6)  # LSBP
+
     cv2.moveWindow('ORIGINAL', 50, 50)
     cv2.moveWindow('MOG', 440, 50)
     cv2.moveWindow('MOG2', 50, 300)
     cv2.moveWindow('GMG', 440, 300)
+    cv2.moveWindow('GSOC', 50, 550)
+    cv2.moveWindow('LSBP', 440, 550)
+    cv2.moveWindow('CNT', 830, 50)
+
     ret, frame = cap.read()  # binary Video 객체
     k = cv2.waitKey(10) & 0xff
     if k == ord('q'):

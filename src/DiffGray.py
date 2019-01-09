@@ -13,8 +13,7 @@ while(ret == 1):
     # 현재 프레임과 이전 프레임간의 차영상 확인
     frame_diff_re=cv2.resize(frame_diff, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     current_frame_re=cv2.resize(current_frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
-    #이미지 리사이징
-    cv2.putText(frame_diff_re, 'GRAY', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
+    #이미지 리사이징    cv2.putText(frame_diff_re, 'GRAY', (230,30), font, 1, (255,255,255), 2, cv2.LINE_AA)
     cv2.putText(current_frame_re, 'Original', (230, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
     cv2.imshow('DIFF', frame_diff_re)
     cv2.imshow('ORIGINAL', current_frame_re)
