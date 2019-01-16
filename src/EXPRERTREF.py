@@ -1,7 +1,8 @@
 import numpy as np
 import cv2
 font = cv2.FONT_HERSHEY_COMPLEX  # normal size serif font
-cap = cv2.VideoCapture('videos\\osaka.mp4')
+cap = cv2.VideoCapture('videos\\car3'
+                       '.mp4')
 ret, frame = cap.read()  # binary Video 객체
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (1, 1))  #StructuringElement = 원본 media에 적용되는 kernel
 gmgfgbg = cv2.bgsegm.createBackgroundSubtractorGMG() # gmg 전경객체감산기
@@ -11,7 +12,7 @@ gsoc = cv2.bgsegm.createBackgroundSubtractorGSOC() #gsoc 전경객체감산기
 lsbp = cv2.bgsegm.createBackgroundSubtractorLSBP() # lsbp 전경객체감산기
 cnt = cv2.bgsegm.createBackgroundSubtractorCNT() # cnt 전경객체감산기
 while( ret ==1 ):
-    frame_re = cv2.resize(frame, None, fx=0.8, fy=0.8, interpolation=cv2.INTER_AREA)
+    frame_re = cv2.resize(frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     fgmask = mogfgbg.apply(frame_re) # 전경 마스크 연산(프레임에)
     fgmask2 = mog2fgbg.apply(frame_re) # mog2 전경 마스크 연산
 
@@ -37,13 +38,13 @@ while( ret ==1 ):
     cv2.putText(fgmask6, 'CNT', (270, 30), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
     cv2.imshow('CNT', fgmask6)  # LSBP
 
-    cv2.moveWindow('ORIGINAL', 50, 50)
-    cv2.moveWindow('MOG', 440, 50)
-    cv2.moveWindow('MOG2', 50, 300)
-    cv2.moveWindow('GMG', 440, 300)
-    cv2.moveWindow('GSOC', 50, 550)
-    cv2.moveWindow('LSBP', 440, 550)
-    cv2.moveWindow('CNT', 830, 50)
+    cv2.moveWindow('ORIGINAL', 50, 10)
+    cv2.moveWindow('MOG', 500, 10)
+    cv2.moveWindow('MOG2', 50, 370)
+    cv2.moveWindow('GMG', 500, 370)
+    cv2.moveWindow('GSOC', 50, 740)
+    cv2.moveWindow('LSBP', 500,740)
+    cv2.moveWindow('CNT', 950, 10)
 
     ret, frame = cap.read()  # binary Video 객체
     k = cv2.waitKey(1) & 0xff

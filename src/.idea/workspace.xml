@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4252125e-5e73-4f15-93a5-2aa3d2dbf706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Diff2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiffView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXPRERTREF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/newvtest.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/tree.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/BackGroundSubtraction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/BackGroundSubtraction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imageprocessing.hwp" beforeDir="false" afterPath="$PROJECT_DIR$/../imageprocessing.hwp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BackgroundMog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BackgroundMog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllView.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/Diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GMG.py" beforeDir="false" afterPath="$PROJECT_DIR$/GMG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOG.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOG2.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOG2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sky.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vtest.avi" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MOG.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="190">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -53,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GMG.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="33" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="133">
+              <caret line="10" column="16" selection-start-line="10" selection-end-line="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -65,8 +66,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AllView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+            <state relative-caret-position="874">
+              <caret line="47" column="44" selection-end-line="59" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXPRERTREF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -75,28 +88,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diff.py">
+        <entry file="file://$PROJECT_DIR$/EXPERT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="21" lean-forward="true" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiffView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Diff2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="10" column="22" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MOG2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="266">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -135,7 +133,6 @@
         <option value="$PROJECT_DIR$/GMGTest.py" />
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/AllView.py" />
         <option value="$PROJECT_DIR$/MOG2.py" />
         <option value="$PROJECT_DIR$/MOG.py" />
         <option value="$PROJECT_DIR$/GMG.py" />
@@ -143,12 +140,14 @@
         <option value="$PROJECT_DIR$/videos/DiffView.py" />
         <option value="$PROJECT_DIR$/DiffView.py" />
         <option value="$PROJECT_DIR$/Diff2.py" />
+        <option value="$PROJECT_DIR$/AllView.py" />
+        <option value="$PROJECT_DIR$/EXPRERTREF.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
-    <option name="y" value="66" />
+    <option name="x" value="543" />
+    <option name="y" value="69" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -193,8 +192,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DiffView">
-    <configuration name="Diff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.EXPRERTREF">
+    <configuration name="AllView" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BackgroundMog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diff.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AllView.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,6 +256,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="EXPRERTREF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BackgroundMog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXPRERTREF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MOG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BackgroundMog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,34 +298,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MOG2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BackgroundMog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MOG2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EXPRERTREF" />
+        <item itemvalue="Python.AllView" />
+        <item itemvalue="Python.MOG" />
         <item itemvalue="Python.DiffView" />
         <item itemvalue="Python.Diff2" />
-        <item itemvalue="Python.Diff" />
-        <item itemvalue="Python.MOG2" />
-        <item itemvalue="Python.MOG" />
       </list>
     </recent_temporary>
   </component>
@@ -331,15 +330,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="66" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="543" y="69" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14464024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14464024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,6 +358,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/GMG.py" />
     <entry file="file://$PROJECT_DIR$/venv/GMGtest.py" />
+    <entry file="file://$PROJECT_DIR$/videos/DiffView.py" />
+    <entry file="file://$PROJECT_DIR$/Diff.py" />
+    <entry file="file://$PROJECT_DIR$/DiffView.py" />
+    <entry file="file://$PROJECT_DIR$/Diff2.py" />
+    <entry file="file://$PROJECT_DIR$/MOG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -373,30 +385,10 @@
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MOG2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GMG.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="33" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MOG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="133">
+          <caret line="10" column="16" selection-start-line="10" selection-end-line="11" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -405,35 +397,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AllView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+        <state relative-caret-position="874">
+          <caret line="47" column="44" selection-end-line="59" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videos/DiffView.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diff.py">
+    <entry file="file://$PROJECT_DIR$/MOG2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="21" lean-forward="true" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiffView.py">
+    <entry file="file://$PROJECT_DIR$/EXPERT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diff2.py">
+    <entry file="file://$PROJECT_DIR$/EXPRERTREF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
