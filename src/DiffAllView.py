@@ -24,7 +24,8 @@ while(ret ==1):
     frame_diff_lab = cv2.absdiff(current_frame_lab, previous_frame_lab)
     frame_diff_hls = cv2.absdiff(current_frame_hls, previous_frame_hls)
     frame_diff_luv = cv2.absdiff(current_frame_luv, previous_frame_luv)
-    # 현재 프레임과 이전 프레임간의 차영상 확인
+    # 현재 프레임과 이전 프레임간의 차
+    # 영상 확인
 
     current_frame_re = cv2.resize(current_frame, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)
     frame_diff_gray_re = cv2.resize(frame_diff_gray, None, fx=0.3, fy=0.3, interpolation=cv2.INTER_AREA)

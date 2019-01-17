@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4fbd5a4-3dbe-4eab-8258-888d27cfdef2" name="Default Changelist" comment="Contrib update">
-      <change afterPath="$PROJECT_DIR$/src/videos/newvtest.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/videos/tree.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BackGroundSubtraction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BackGroundSubtraction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e4fbd5a4-3dbe-4eab-8258-888d27cfdef2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageprocessing.hwp" beforeDir="false" afterPath="$PROJECT_DIR$/imageprocessing.hwp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageprocessing.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiffAllView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiffAllView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EXPRERTREF.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/EXPRERTREF.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GMG.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MOG.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EXPERT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="57">
+              <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -69,8 +54,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DiffAllView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="228">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EXPRERTREF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +140,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/DiffLab.py" />
-        <option value="$PROJECT_DIR$/src/DiffAllView.py" />
         <option value="$PROJECT_DIR$/src/DifftHls.py" />
         <option value="$PROJECT_DIR$/src/DiffView.py" />
         <option value="$PROJECT_DIR$/../Vibe/VIBE/vibe_test.py" />
@@ -156,12 +152,14 @@
         <option value="$PROJECT_DIR$/../../../resizing.py" />
         <option value="$PROJECT_DIR$/src/MOG2.py" />
         <option value="$PROJECT_DIR$/src/AllView.py" />
+        <option value="$PROJECT_DIR$/src/EXPRERTREF.py" />
+        <option value="$PROJECT_DIR$/src/DiffAllView.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="129" />
+    <option name="x" value="521" />
+    <option name="y" value="75" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -170,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -186,7 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.EXPRERTREF">
+  <component name="RunManager" selected="Python.DiffAllView">
     <configuration name="AllView" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BackGroundSubtraction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,8 +323,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.EXPRERTREF" />
         <item itemvalue="Python.DiffAllView" />
+        <item itemvalue="Python.EXPRERTREF" />
         <item itemvalue="Python.AllView" />
         <item itemvalue="Python.EXPERT" />
         <item itemvalue="Python.GMG" />
@@ -351,19 +349,26 @@
       <option name="project" value="LOCAL" />
       <updated>1547009955208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add gsoc,lsbp,cnt algorithm">
+      <created>1547627641421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547627641421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
+    <frame x="521" y="75" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16781837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992658" visible="true" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992658" visible="true" weight="0.37759817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +384,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Contrib update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contrib update" />
+    <MESSAGE value="add gsoc,lsbp,cnt algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gsoc,lsbp,cnt algorithm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DiffView.py" />
@@ -429,16 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EXPERT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AllView.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -476,6 +472,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../capture.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DiffGray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -483,13 +482,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../capture.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/EXPERT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EXPRERTREF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiffAllView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="228">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
